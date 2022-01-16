@@ -33,6 +33,9 @@
 .container .barContainer .bar {
   margin: 10px;
   width: 100px;
-  background-color: grey;
+  background-color: #d8dae7a1;
+  -webkit-box-shadow: 2px 1px 3px #bdb6b6;
+          box-shadow: 2px 1px 3px #bdb6b6;
+  border: solid rgba(0, 0, 0, 0.438) 1pt;
 }
 /*# sourceMappingURL=style.css.map */
