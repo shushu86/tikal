@@ -1,0 +1,22 @@
+@mixin border {
+    border: solid black 1pt;
+}
+
+table {
+    width: 800px;
+    @include border();
+    border-collapse: collapse;
+    
+    tr {
+        @include border();
+    }
+
+    td {
+        padding: 15px;
+    }
+    
+    td:nth-of-type(2) {
+        margin-top: 10px;
+       
+    }
+}

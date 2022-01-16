@@ -1,0 +1,10 @@
+html, body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: arial;
+  font-size: 14pt;
+}
+/*# sourceMappingURL=style.css.map */

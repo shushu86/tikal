@@ -1,0 +1,23 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    @include flexCenter();
+    align-items: flex-end;
+    margin: 15px;
+    .barContainer{
+        @include flexCenter();
+        flex-direction: column;
+        .bar {
+            margin: 10px;
+            width: 100px;
+            background-color: grey;
+        }
+    }
+}
+
+
+
